@@ -1,3 +1,6 @@
 *.class
 build/*
 properties.xml
+*.iml
+/.idea/
+/target/

@@ -4,14 +4,17 @@ CyberBiology - life simulator on computer
 
 ## Build
 
-### Linux
-
 Build artifact:
-```bash
-make
+```sh
+# linux
+./mvnw clean package
+
+# windows
+mvnw.cmd clean package
 ```
 
-You can run after build:
-```build
-java ./build/world.jar
+
+Run artifact:
+```
+java -jar target/CyberBiology-1.0-SNAPSHOT.jar
 ```
